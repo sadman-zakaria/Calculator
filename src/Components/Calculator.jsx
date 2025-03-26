@@ -115,7 +115,7 @@ const Calculator = () => {
 
         {/* Buttons Grid */}
         <div className="grid grid-cols-4 gap-3">
-          {["(", ")", "%", "AC"].map((item) => (
+          {["(", ")", "/", "AC"].map((item) => (
             <button
               key={item}
               className="btn bg-red-400"
