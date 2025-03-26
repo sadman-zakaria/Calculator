@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.btn{
+  @apply bg-blue-50 hover:bg-blue-100 duration-300 cursor-pointer
+  rounded-full font-semibold text-2xl
+}
